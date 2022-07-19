@@ -1,8 +1,11 @@
 # from torch import cos_
+from importlib_metadata import install
+from send2trash import send2trash
+import transformers
 import streamlit as st
 
 import pandas as pd
-
+!pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
 from bertopic import BERTopic
 from bertopic.backend._utils import select_backend
