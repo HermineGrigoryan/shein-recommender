@@ -5,7 +5,6 @@ import transformers
 import streamlit as st
 
 import pandas as pd
-!pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
 from bertopic import BERTopic
 from bertopic.backend._utils import select_backend
