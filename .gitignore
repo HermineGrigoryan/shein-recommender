@@ -19,3 +19,5 @@ bin-release/
 
 models/model_vgg16
 Recommendation system - shein.com - Group#4.pdf
+.ipynb_checkpoints
+__pycache__
